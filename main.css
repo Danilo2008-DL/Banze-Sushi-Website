@@ -10,7 +10,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #020713;
+	background-color: #020206;
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: arial;
@@ -19,9 +19,21 @@ body {
 }
 nav {
 	background: #8e2727;
+	height: 85px;
+	width: 100%;
+	transition: 2s;
+
+}
+@media only screen and (max-width: 992px) {
+	nav {
+	background: #8e2727;
 	height: 80px;
 	width: 100%;
-}		
+	transition: 2s;
+
+    }
+}
+
 label.logo {
 	color: white;
 	font-size: 35px;
@@ -104,10 +116,25 @@ a.active, a:hover{
 	}
 }
 
+
 img {
-	width: 200px;
+	width: 110px;
 	transform: rotate(360deg);
-	transition: 2s
+	transition: 2s;
+	border-radius: 50px;
+	padding: 10px;
+	margin-top: -10px;
+}
+
+@media only screen and (max-width: 992px) {
+	img {
+	width: 100px;
+	transform: rotate(360deg);
+	transition: 2s;
+	border-radius: 50px;
+	margin-top: -10px;
+	padding: 10px;
+    }
 }
 
 .txt1 {
@@ -115,7 +142,7 @@ img {
 	color: white;
 	font-style: inherit;
 	font-family: 'Monteserrat', sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	transition: 2.0s;
 	margin: 0;
 	padding: 250px;
@@ -123,16 +150,16 @@ img {
    
 }
 
+
 @media screen and (max-width: 992px)  {
 	.txt1 {
-	text-align: center;
 	color: white;
 	font-style: inherit;
 	font-family: 'Monteserrat', sans-serif;
 	font-size: 30px;
 	transition: 2.0s;
 	margin: 0;
-	padding: 60px;
+	padding: 100px;
 	background-size: cover;
     }
 }
