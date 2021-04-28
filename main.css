@@ -44,17 +44,20 @@ label.logo {
 nav ul{
 	float: right;
 	margin-right: 20px;
+	transition: 1s;
 }
 nav ul li{
 	display: inline-block;
 	line-height: 80px;
 	margin: 0 5px;
+	transition: 1s;
 }
 nav ul li a{
 	color: white;
 	font-size: 17px;
 	padding: 7px 13px;
 	border-radius: 10px;
+	transition: 1s;
 	
 }
 a.active, a:hover{
@@ -156,10 +159,12 @@ img {
 	color: white;
 	font-style: inherit;
 	font-family: 'Monteserrat', sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	transition: 2.0s;
 	margin: 0;
 	padding: 95px;
 	background-size: cover;
     }
 }
+
+	
