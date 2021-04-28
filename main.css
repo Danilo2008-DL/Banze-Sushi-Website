@@ -156,10 +156,10 @@ img {
 	color: white;
 	font-style: inherit;
 	font-family: 'Monteserrat', sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	transition: 2.0s;
 	margin: 0;
-	padding: 80px;
+	padding: 100px;
 	background-size: cover;
     }
 }
