@@ -123,9 +123,16 @@ img {
    
 }
 
-
-{
-
-
-
+@media screen and (max-width: 992px)  {
+	.txt1 {
+	text-align: center;
+	color: white;
+	font-style: inherit;
+	font-family: 'Monteserrat', sans-serif;
+	font-size: 30px;
+	transition: 2.0s;
+	margin: 0;
+	padding: 250px;
+	background-size: cover;
+    }
 }
