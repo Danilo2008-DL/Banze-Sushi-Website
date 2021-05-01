@@ -166,7 +166,7 @@ a.active, a:hover{
 	font-family: 'Monteserrat', sans-serif;
 	font-size: 30px;
 	margin: 0;
-	transform: translate(20px, 0px);
+	transform: translate(5px, 10px);
 	background-size: cover;
 
     }
