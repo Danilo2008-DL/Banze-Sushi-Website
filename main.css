@@ -193,26 +193,7 @@ a.active, a:hover{
 
     }
 }
-.container img { 
-	width: 1000px;
-	transform: translate(450px, -200px);
-	border-radius: 30px;
-	height: 400px;
-	
 
-
-}
-
-@media screen and (max-width: 992px) {
-	.container img {
-	width: 400px;
-	transform: translate(0px, -150px);
-	border-radius: 20px;
-	height: 200px;
-
-
-    }
-}
 
 
 
