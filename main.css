@@ -158,7 +158,6 @@ a.active, a:hover{
    
 }
 
-
 @media screen and (max-width: 992px) {
 	.txt1 {
 	color: white;
@@ -171,6 +170,7 @@ a.active, a:hover{
 
     }
 }
+
 
 .txt2 {
 	color: white;
@@ -193,6 +193,47 @@ a.active, a:hover{
 
     }
 }
+
+.container img { 
+	width: 800px;
+	transform: translate(520px, -100px);
+	border-radius: 30px;
+	height: 400px;
+	
+
+
+}
+
+@media screen and (max-width: 992px) {
+	.container img {
+		display: none;
+	
+
+
+    }
+}
+
+.txt3 {
+	 width: 800px;
+	 color: white;
+	 font-size: 40px;
+	 color: white;
+     text-align: center;
+     font-family: 'Sacramento', cursive;
+     border: solid 1px;
+     border-radius: 10px;
+     transform: translate(520px, -100px);
+     box-shadow: red;
+}
+
+
+
+
+.containner {
+	position: absolute;
+	width: 400px;
+	transform: translate(700px, -50px);
+
 
 
 
