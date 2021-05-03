@@ -228,7 +228,7 @@ a.active, a:hover{
 }
 @media screen and (max-width: 992px) {
 	.txt3 {
-	width: 420px;
+	width: 410px;
 	color: white;
 	font-style: inherit;
 	font-family: 'Sacramento', cursive;	
