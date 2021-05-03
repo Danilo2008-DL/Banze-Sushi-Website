@@ -189,6 +189,7 @@ a.active, a:hover{
 	font-size: 40px;
 	margin: 0;	
 	padding: 100px;
+
 	
 
     }
@@ -225,6 +226,24 @@ a.active, a:hover{
      transform: translate(520px, -100px);
      box-shadow: red;
 }
+@media screen and (max-width: 992px) {
+	.txt3 {
+	width: 800px;
+	color: white;
+	font-style: inherit;
+	font-family: 'Sacramento', cursive;	
+	font-size: 35px;
+	margin: 0;	
+	padding: 100px;
+	transform: translate(-150px, 30px);
+	
+
+    }
+}
+
+
+
+
 
 
 
