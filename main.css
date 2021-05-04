@@ -222,7 +222,7 @@ a.active, a:hover{
      text-align: center;
      font-family: 'Sacramento', cursive;
      border: solid 1px;
-     border-radius: 10px;
+     border-radius: 1px;
      transform: translate(520px, -100px);
      box-shadow: red;
 }
