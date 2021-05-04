@@ -215,10 +215,10 @@ a.active, a:hover{
 }
 
 .txt3 {
-	 width: 800px;
-	 color: white;
-	 font-size: 40px;
-	 color: white;
+     width: 800px;
+     color: white;
+     font-size: 40px;
+     color: white;
      text-align: center;
      font-family: 'Sacramento', cursive;
      border: solid 1px;
@@ -236,9 +236,6 @@ a.active, a:hover{
 	margin: 0;	
 	padding: 50px;
 	transform: translate(-20px, 20px);
-	border-radius: 10;
-	
-
     }
 }
 
