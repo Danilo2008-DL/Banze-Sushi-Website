@@ -252,7 +252,7 @@ a.active, a:hover{
 @media screen and (max-width: 992px) {
 	.sushi {
 	width: 80px;
-	transform: translate(175px, -730px);
+	transform: translate(170px, -730px);
 
 }
 
