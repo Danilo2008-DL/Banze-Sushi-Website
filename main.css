@@ -62,13 +62,12 @@ nav ul li a{
 	font-size: 20px;
 	padding: 7px 13px;
 	border-radius: 10px;
-	
-	
-	
 }
 a.active, a:hover{
-	background: black;
+	background: #000000db;
 	cursor: pointer;
+	transition: all 1s ease;
+	margin-top: 10px;
 
 }
 .checkbtn {
@@ -118,7 +117,7 @@ a.active, a:hover{
 	a:hover, a.active {
 		background: none;
 		color: black;
-		transition: 1s;
+		
 	}
 	#check:checked ~ ul {
 		left: 0;
@@ -133,7 +132,9 @@ a.active, a:hover{
 	padding: 10px;
 	margin-top: -10px;
 	margin-left: 60px;
+	transition: 2s;
 }
+
 
 @media only screen and (max-width: 992px) {
 	.logo {
@@ -197,10 +198,12 @@ a.active, a:hover{
 }
 
 .container img { 
-	width: 800px;
-	transform: translate(520px, -100px);
-	border-radius: 30px;
-	height: 400px;
+	width: 1200px;
+	transform: translate(350px, -100px);
+	border-radius: 20px;
+	height: 600px;
+	max-height: 100%;
+	max-width: 100%;
 	
 
 
@@ -216,16 +219,19 @@ a.active, a:hover{
 }
 
 .txt3 {
-     width: 800px;
+     width: 1000px;
      color: white;
-     font-size: 40px;
+     font-size: 50px;
      color: white;
      text-align: center;
      font-family: 'Sacramento', cursive;
      border: solid 1px;
-     border-radius: 1px;
-     transform: translate(520px, -100px);
+     border-radius: 10px;
+     transform: translate(450px, -100px);
      box-shadow: red;
+     max-width: 100%;
+     max-height: 100%;
+
 }
 @media screen and (max-width: 992px) {
 	.txt3 {
@@ -236,21 +242,32 @@ a.active, a:hover{
 	font-size: 35px;
 	margin: 0;	
 	padding: 50px;
-	transform: translate(-20px, 20px);
+	transform: translate(-20px, 20px);	
     }
+}
+
+.sushi {
+	transform: translate(1180px, -1310px);
+}
+@media screen and (max-width: 992px) {
+	.sushi {
+	width: 80px;
+	transform: translate(205px, -750px);
+
 }
 
 
 
 
 
+	
 
 
 
-.containner {
-	position: absolute;
-	width: 400px;
-	transform: translate(700px, -50px);
+
+
+
+
 
 
 
