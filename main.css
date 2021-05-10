@@ -242,7 +242,8 @@ a.active, a:hover{
 	font-size: 35px;
 	margin: 0;	
 	padding: 50px;
-	transform: translate(-20px, 10px);	
+	transform: translate(-20px, 10px);
+        position: absolute;
     }
 }
 
