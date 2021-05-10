@@ -246,14 +246,36 @@ a.active, a:hover{
     }
 }
 
-.sushi {
-	transform: translate(1180px, -1310px);
+.moto {
+	transform: translate(500px, -1565px);
+	width: 200px;
 }
-@media screen and (max-width: 992px) {
-	.sushi {
-	width: 80px;
-	transform: translate(160px, -730px);
 
+.moto {
+  animation-duration: 20s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -600px;
+    
+  }
+
+  to {
+    margin-left: 1200px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+	.moto {
+	width: 200px;
+	transform: translate(205px, -685px);
+    }
 }
 
 
