@@ -274,7 +274,7 @@ a.active, a:hover{
 @media screen and (max-width: 992px) {
 	.moto {
 	width: 200px;
-	transform: translate(205px, -715px);
+	transform: translate(205px, -725px);
     }
 }
 
