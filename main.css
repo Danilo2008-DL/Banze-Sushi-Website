@@ -242,13 +242,12 @@ a.active, a:hover{
 	font-size: 35px;
 	margin: 0;	
 	padding: 50px;
-	transform: translate(-20px, 10px);
-        position: absolute;
+	transform: translate(-20px, 20px);	
     }
 }
 
 .moto {
-	transform: translate(500px, -1065px);
+	transform: translate(500px, -1565px);
 	width: 200px;
 }
 
@@ -275,18 +274,7 @@ a.active, a:hover{
 @media screen and (max-width: 992px) {
 	.moto {
 	width: 200px;
-	transform: translate(205px, -725px);
-		@keyframes slidein {
-  from {
-    margin-left: -200px;
-    
-  }
-
-  to {
-    margin-left: 600px;
-  }
-}
-
+	transform: translate(205px, -685px);
     }
 }
 
