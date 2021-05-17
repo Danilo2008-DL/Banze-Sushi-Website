@@ -253,7 +253,7 @@ a.active, a:hover{
 }
 
 .moto {
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-name: slidein;
 
 }
