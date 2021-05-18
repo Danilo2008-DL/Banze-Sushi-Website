@@ -34,7 +34,7 @@ nav {
 	height: 80px;
 	width: 100%;
 	transition: 2s;
-	display: block;
+	
 
     }
 }
@@ -288,7 +288,8 @@ a.active, a:hover{
       padding: 80px;
       margin: 0;
       background: #8e2727;
-      margin-left: -25px;
+      margin-left: -25px
+}
 
 
 
