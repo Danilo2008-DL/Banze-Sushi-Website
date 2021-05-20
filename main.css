@@ -283,13 +283,126 @@ a.active, a:hover{
 .txt4 {
       color: white;
       text-align: center;
-      font-size: 55px;
+      font-size: 65px;
       font-family: 'Monteserrat', sans-serif;
       padding: 80px;
       margin: 0;
       background: #8e2727;
-      margin-left: -25px
+      margin-left: -25px;
+
 }
+.menu{
+    width: 100%;
+    padding: 10rem 5rem;
+    background-color: #0c0c10;
+}
+
+.menu-heading{
+    font-size: 12rem;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0,0,0,.9);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-rows:repeat(2, 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 2rem;
+}
+
+.heading-secondary{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.menu-img{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("img/prato1.jpeg");
+}
+.menu-img2{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("img/prato2.jpeg");
+}
+.menu-img3{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("img/prato3.jpeg");
+}
+.menu-img4{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;	
+    background-image: url("img/prato4.jpeg");
+}
+.menu-img5{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("img/prato5.jpeg");
+}
+.menu-img6{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("img/prato6.jpeg");
+}
+.menu-img7{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("img/prato7.jpeg");
+}
+
+.menu-container{
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0,0,0,.2);
+    transition: all .4s ease;
+}
+
+.menu-container:hover{
+    box-shadow: 0 0 5rem rgba(0,0,0,.4);
+    transform: scale(1.07);
+}
+
+.menu-p{
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu-title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.price{
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: #da6b1d;
+    text-shadow: 0 .4rem 2rem rgba(0,0,0,.4);
 
 
 
