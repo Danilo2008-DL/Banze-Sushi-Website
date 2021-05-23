@@ -296,6 +296,14 @@ a.active, a:hover{
     padding: 10rem 5rem;
     background-color: #0c0c10;
 }
+@media only screen and (max-width: 992px) {
+	.menu {
+    display: none;
+    width: 100%;
+    padding: 10rem 5rem;
+    background-color: #0c0c10;
+}
+}
 
 .menu-heading{
     font-size: 12rem;
