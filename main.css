@@ -293,6 +293,7 @@ a.active, a:hover{
 @media only screen and (max-width: 992px) {
 	.txt4 {
    margin-left: -50px;
+   font-size: 50px;
 }
 }
 
