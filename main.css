@@ -289,8 +289,13 @@ a.active, a:hover{
       margin: 0;
       background: #8e2727;
       margin-left: -25px;
-
 }
+@media only screen and (max-width: 992px) {
+	.txt4 {
+   margin-left: -20px;
+}
+}
+
 .menu{
     width: 100%;
     padding: 10rem 5rem;
