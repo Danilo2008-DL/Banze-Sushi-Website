@@ -205,11 +205,14 @@ a.active, a:hover{
 
 .container img { 
 	width: 1200px;
-	transform: translate(350px, -100px);
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	border-radius: 20px;
 	height: 600px;
 	max-height: 100%;
 	max-width: 100%;
+	background-size: cover;
 
 	
 
@@ -234,7 +237,9 @@ a.active, a:hover{
      font-family: 'Sacramento', cursive;
      border: solid 1px;
      border-radius: 10px;
-     transform: translate(450px, -100px);
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
      box-shadow: red;
      max-width: 100%;
      max-height: 100%;
