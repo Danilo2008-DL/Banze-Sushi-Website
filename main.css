@@ -254,7 +254,7 @@ a.active, a:hover{
 	font-size: 35px;
 	margin: 0;	
 	padding: 50px;
-	transform: translate(-0px, 20px);
+	transform: translate(-20px, 0px);
         margin-left: 18px;
     }
 }
