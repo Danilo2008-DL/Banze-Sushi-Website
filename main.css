@@ -193,8 +193,8 @@ a.active, a:hover{
 	.txt2 {
 	color: white;
 	font-style: inherit;
-	font-family: 'Monteserrat', sans-serif;
-	font-size: 40px;
+	font-family: ;
+	font-size: 'Reggae One', cursive;
 	margin: 0;	
 	padding: 100px;
 
@@ -295,7 +295,10 @@ a.active, a:hover{
 
 .txt4 {
       color: white;
-      text-align: center;
+      text-align: cent
+	      
+	      
+	      er;
       font-size: 65px;
       font-family: 'Monteserrat', sans-serif;
       padding: 80px;
