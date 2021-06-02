@@ -193,7 +193,7 @@ a.active, a:hover{
 	.txt2 {
 	color: white;
 	font-style: inherit;
-	font-size: 'japa';
+	font-family 'japa';
 	font-size: 30px;
 	margin: 0;	
 	padding: 100px;
