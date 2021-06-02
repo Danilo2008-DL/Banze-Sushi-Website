@@ -175,6 +175,10 @@ a.active, a:hover{
 	margin: 0;
 	padding: 70px;
 	background-size: cover;
+	margin-left: auto;
+        margin-right: auto;
+	max-height: 100%;
+	max-width: 100%;
 
     }
 }
