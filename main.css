@@ -316,9 +316,7 @@ a.active, a:hover{
 @media only screen and (max-width: 992px) {
 	.txt4 {
            margin-left: auto;
-           margin-right: auto;
-           max-height: 100%;
-           max-width: 100%;
+           text-align: center;
            font-size: 50px;
 	   font-family: 'japa';
  
