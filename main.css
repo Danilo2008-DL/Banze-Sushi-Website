@@ -328,15 +328,7 @@ a.active, a:hover{
     padding: 10rem 5rem;
     background-color: #0c0c10;
 }
-@media only screen and (max-width: 992px) {
-	.menu {
-	max-width:200px;
-        max-height:150px;
-        width: auto;
-        height: auto;
-        background-color: black;
-}
-}
+
 
 .menu-heading{
     font-size: 12rem;
@@ -354,6 +346,17 @@ a.active, a:hover{
     justify-self: center;
     grid-gap: 2rem;
 }
+@media only screen and (max-width: 992px) {
+	.menu-grid{
+    display: grid;
+    grid-template-rows:repeat(2, 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 2rem;
+}
+}
+	
+
 
 .heading-secondary{
     font-size: 7rem;
