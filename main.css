@@ -348,9 +348,11 @@ a.active, a:hover{
 }
 @media only screen and (max-width: 992px) {
 	.menu-grid{
-    display: grid;
-    justify-self: center;
-    grid-gap: 2rem;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+  
 }
 }
 	
