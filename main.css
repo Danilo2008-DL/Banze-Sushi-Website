@@ -210,6 +210,20 @@ a.active, a:hover{
 
     }
 }
+@media screen and (max-width: 558px) {
+.txt2 {
+    color: white;
+    font-style: inherit;
+    font-family: 'japa';
+    font-size: 30px;
+    margin: auto;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+}
 
 .container img { 
 	width: 1200px;
