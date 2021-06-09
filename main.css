@@ -210,7 +210,7 @@ a.active, a:hover{
 
     }
 }
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 320px) {
 .txt2 {
     color: white;
     font-style: inherit;
