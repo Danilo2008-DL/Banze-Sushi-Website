@@ -182,6 +182,20 @@ a.active, a:hover{
 
     }
 }
+@media screen and (max-width: 320px) {
+.txt1 {
+    color: white;
+    font-style: inherit;
+    font-family: 'japa';
+    font-size: 25px;
+    margin: auto;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+}
 
 
 .txt2 {
@@ -209,6 +223,21 @@ a.active, a:hover{
 	
 
     }
+}
+
+@media screen and (max-width: 320px) {
+.txt2 {
+    color: white;
+    font-style: inherit;
+    font-family: 'japa';
+    font-size: 35px;
+    margin: auto;
+    padding: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
 }
 
 .container img { 
@@ -321,6 +350,21 @@ a.active, a:hover{
            font-size: 50px;
 	   font-family: 'japa';
  
+}
+}
+
+@media screen and (max-width: 320px) {
+.txt4 {
+    color: white;
+    font-style: inherit;
+    font-family: 'japa';
+    font-size: 40px;
+    margin: auto;
+    padding: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 }
 
