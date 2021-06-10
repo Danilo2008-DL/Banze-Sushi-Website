@@ -489,6 +489,7 @@ a.active, a:hover{
 .menu-container:hover{
     box-shadow: 0 0 5rem rgba(0,0,0,.4);
     transform: rotate(360deg);
+    transition: 1s;
 }
 
 .menu-p{
