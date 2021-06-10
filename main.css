@@ -355,6 +355,9 @@ a.active, a:hover{
            text-align: center;
            font-size: 50px;
 	   font-family: 'japa';
+	   display: flex;
+	   justify-content: center;
+	   align-items: center;
  
 }
 }
