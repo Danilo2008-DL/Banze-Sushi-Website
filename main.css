@@ -113,7 +113,7 @@ a.active, a:hover{
 		width: 100%;
 		height: 100vh;
 		background: gray;
-		top: 0px;
+		top: 80px;
 		left: -100%;
 		text-align: center;
 		transition: .5s;
