@@ -29,6 +29,9 @@ nav {
 	height: 85px;
 	width: 100%;
 	transition: 3s;
+	overflow: hidden;
+	position: fixed;
+	z-index: 2;
 
 }
 @media only screen and (max-width: 992px) {
@@ -37,6 +40,8 @@ nav {
 	height: 80px;
 	width: 100%;
 	transition: 2s;
+	overflow: hidden;
+
 	
 
     }
@@ -53,12 +58,14 @@ nav ul{
 	float: right;
 	margin-right: 20px;
 	transition: 2s;
+	
 }
 nav ul li{
 	display: inline-block;
 	line-height: 80px;
 	margin: 0 5px;
 	transition: 3s;
+	
 }
 
 nav ul li a{
@@ -66,6 +73,7 @@ nav ul li a{
 	font-size: 20px;
 	padding: 7px 13px;
 	border-radius: 10px;
+	
 }
 a.active, a:hover{
 	background: #000000db;
@@ -93,6 +101,7 @@ a.active, a:hover{
 	}
 	nav ul li a{
 		font-size: 16px;
+		
 	}
 }
 @media (max-width: 858px){
@@ -104,19 +113,23 @@ a.active, a:hover{
 		width: 100%;
 		height: 100vh;
 		background: gray;
-		top: 70px;
+		top: 0px;
 		left: -100%;
 		text-align: center;
 		transition: .5s;
 		z-index: 1;
+		
+
 	}
 	nav ul li{
 		display: block;
 		margin: 50px 0;
 		line-height: 30px;
+		
 	}
 	nav ul li a{
 		font-size: 20px;
+		
 	}
 	a:hover, a.active {
 		background: none;
@@ -125,6 +138,7 @@ a.active, a:hover{
 	}
 	#check:checked ~ ul {
 		left: 0;
+		
 	}
 }
 
@@ -152,7 +166,7 @@ a.active, a:hover{
     }
 }
 
-.txt1 {
+#txt1 {
 	text-align: center;
 	color: #611f1f;
 	font-family: 'japa';
@@ -166,7 +180,7 @@ a.active, a:hover{
 }
 
 @media screen and (max-width: 992px) {
-	.txt1 {
+	#txt1 {
 	color: #611f1f; 
 	font-style: inherit;
 	font-family: 'japa';
@@ -186,7 +200,7 @@ a.active, a:hover{
     }
 }
 @media screen and (max-width: 320px) {
-.txt1 {
+#txt1 {
     color: white;
     font-style: inherit;
     font-family: 'japa';
@@ -272,7 +286,7 @@ a.active, a:hover{
     }
 }
 
-.txt3 {
+#txt3 {
      width: 1000px;
      color: white;
      font-size: 50px;
@@ -290,7 +304,7 @@ a.active, a:hover{
 
 }
 @media screen and (max-width: 992px) {
-	.txt3 {
+	#txt3 {
 	width: 410px;
 	color: white;
 	font-style: inherit;
@@ -337,7 +351,7 @@ a.active, a:hover{
     }
 }
 
-.txt4 {
+#txt4 {
       color: white;
       text-align: center;
       font-size: 75px;
@@ -350,7 +364,7 @@ a.active, a:hover{
 }
 
 @media only screen and (max-width: 992px) {
-	.txt4 {
+	#txt4 {
 		
            text-align: center;
            font-size: 50px;
@@ -363,7 +377,7 @@ a.active, a:hover{
 }
 
 @media screen and (max-width: 320px) {
-.txt4 {
+#txt4 {
     color: white;
     font-style: inherit;
     font-family: 'japa';
@@ -525,7 +539,7 @@ a.active, a:hover{
 }
 
 
-.contact-background{
+#contact-background{
 	width: 1200px;
 	padding: 40px;
 	background: #ffffff;
@@ -542,7 +556,7 @@ a.active, a:hover{
 
 
 @media screen and (max-width: 992px) {
-	.contact-background{
+	#contact-background{
 		width: 95%;
 }
 }
@@ -579,34 +593,52 @@ a.active, a:hover{
 
 
 .gmail {
-	 width: 80px;
+	 width: 70px;
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 100%;
+     max-height: 100%;
+     padding-bottom: 3rem;
+     border-radius: 10px;
+     
+}
+.gmail:hover{
+    box-shadow: 0 0 5rem rgba(0,0,0,.4);
+    transform: scale(1.07);
+    transition: 1s;
+}
+.insta {
+	 width: 70px;
+ 	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 100%;
+     max-height: 100%;
+     padding-bottom: 3rem;
+     border-radius: 10px;
+    
+}
+.insta:hover{
+    box-shadow: 0 0 5rem rgba(0,0,0,.4);
+    transform: scale(1.07);
+    transition: 1s;
+}
+.face {
+	 width: 70px;
 	 display: block;
      margin-left: auto;
      margin-right: auto;
      max-width: 100%;
      max-height: 100%;
      padding-bottom: 2rem;
+     border-radius: 10px;
      
 }
-.insta {
-	 width: 80px;
- 	 display: block;
-     margin-left: auto;
-     margin-right: auto;
-     max-width: 100%;
-     max-height: 100%;
-       padding-bottom: 2rem;
-    
-}
-.face {
-	 width: 80px;
-	 display: block;
-     margin-left: auto;
-     margin-right: auto;
-     max-width: 100%;
-     max-height: 100%;
-       padding-bottom: 2rem;
-     
+.face:hover{
+    box-shadow: 0 0 5rem rgba(0,0,0,.4);
+    transform: scale(1.07);
+
 }
 	
 
