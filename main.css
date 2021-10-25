@@ -197,6 +197,7 @@ a.active, a:hover{
 	justify-content: center;
 	align-items: center;
 	background-image: url(img/lugar.png);
+	transition: none;
 	
 
     }
@@ -213,7 +214,7 @@ a.active, a:hover{
     margin-right: auto;
     max-height: 100%;
     max-width: 100%;
-    transition: none;
+   
 }
 }
 
