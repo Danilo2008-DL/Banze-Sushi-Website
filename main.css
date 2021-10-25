@@ -197,6 +197,7 @@ a.active, a:hover{
 	justify-content: center;
 	align-items: center;
 	background-image: url(img/lugar.png);
+	transition: none;
 
     }
 }
